@@ -1,0 +1,42 @@
+h1, h3, p {
+	color: white;
+} 
+
+h1 {
+    font-family: "Raleway", sans-serif:
+    .clear: copyright; left;
+    .clear: message; right;
+
+}
+
+p {
+	font-weight: 400:
+}
+
+header {
+	background-color: #F15B31;
+	padding: 30px 20px 30px 20px;
+    border-bottom: 2px solid transparent;
+
+}
+#footer {
+  padding: 20px 0px 20px 0px;
+  background-color: #0D2C40;
+  color: #F15B31;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 700.
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "name ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+a:hover {
+  /* Your styles here */
+}

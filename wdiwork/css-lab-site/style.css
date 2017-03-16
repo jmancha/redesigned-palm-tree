@@ -1,0 +1,20 @@
+Header{
+	background-color: #cc0000;
+	text-align: center;
+}
+p {
+	display: inline-block;
+}
+
+.image {
+		max-width: 300px;
+		max-height: 300px;
+		float: center;
+}
+footer {
+	text-align: center;
+	background-color: #cc0000;
+	clear: both;
+}
+
+
