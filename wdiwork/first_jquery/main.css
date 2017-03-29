@@ -8,11 +8,13 @@ body {
 
 
 	font-family: 'Proza Libre', sans-serif;
+	font-weight: bold;
 }
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 700;
 	margin: 10px 0 14px 0;
+	color: blue;
 }
 		section,
 		div,
@@ -20,7 +22,8 @@ h1 {
 		input,
 		select,
 		textarea {
-	border-radius: 6px;
+
+	border-radius: 10px;
 }
 
 		#main {
@@ -33,59 +36,59 @@ h1 {
 		.form {
 			width: 100%;
 			max-width: 500px;
-			background: #E3E6EC;
+			background: grey;
 			padding: 10px 20px;
 		}
 		.row {
 			margin: 10px 0;
 		}
-		.formGroup {
+.formGroup {
+	width: 100%;
+	display: inline-block;
+		}
+		.formGroup label {
+			display: block;
 			width: 100%;
-			display: inline-block;
-				}
-				.formGroup label {
-					display: block;
-					width: 100%;
-					padding: 8px 0;
-				}
-				.formGroup .radioButtons .radio,
-				.formGroup .checkboxes .check {
-					clear: both;
-					margin-left: 14px;
-				}
-				.formGroup .radio label,
-				.formGroup .check label {
-					float: left;
-					width: inherit;
-					margin: 0 20px 0 4px;
-					line-height: 38px;
-				}
-				.formGroup input,
+			padding: 8px 0;
+		}
+		.formGroup .radioButtons .radio,
+		.formGroup .checkboxes .check {
+			clear: both;
+			margin-left: 14px;
+		}
+		.formGroup .radio label,
+		.formGroup .check label {
+			float: left;
+			width: inherit;
+			margin: 0 20px 0 4px;
+			line-height: 38px;
+		}
+			.formGroup input,
 				.formGroup select,
-				.formGroup textarea {
-						padding: 14px;
-						border: 1px solid #CCC;
-						box-shadow: none;
-						width: 100%;
-						font-size: 1em;
-						height: 48px;
-					}
-			.formGroup textarea {
-				min-height: 100px;
+		.formGroup textarea {
+				padding: 14px;
+				border: 1px solid #CCC;
+				box-shadow: none;
+				width: 100%;
+				font-size: 1em;
+				height: 48px;
 			}
+	.formGroup textarea {
+		min-height: 100px;
+	}
 			.formGroup input[type="radio"],
-			.formGroup input[type="checkbox"] {
-				display: inline-block;
-				float: left;
-			    width: inherit;
-			}
+		.formGroup input[type="checkbox"] {
+		display: inline-block;
+		float: left;
+	    width: inherit;
+	}
 		input[type="submit"] {
 			display: inline-block;
 			float: right;
 			margin-top: 70px;
-			padding: 14px 24px;
+			padding: 15px 30px;
 		    font-weight: bold;
-			background: rgba(39, 208, 127, .5);
+			background: rgba(0);
 			transition: all 0.5s ease;
 			border: none;
 			width: initial;
